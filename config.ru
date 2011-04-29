@@ -17,6 +17,9 @@ soups << "soups/tutorial"
 # This is a dumping ground of ideas at the moment
 # soups << "soups/extras"
 
+# Splendorr added these soups:
+soups << "soups/awn"
+
 app = Vanilla::App.new(:soups => soups)
 
 # If you running your site under a proper webserver, you probably don't need this.
